@@ -1,12 +1,11 @@
 .foodon {
   width: 100vw;
-  padding-top: 100px;
   background-color: #efe5d9;
 }
 
 .foodon__contents {
   width: 100%;
-  max-width: 1600px;
+  max-width: 1240px;
   margin: 0 auto;
 
   display: flex;

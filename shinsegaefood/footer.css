@@ -1,0 +1,110 @@
+footer {
+  width: 100vw;
+  background-color: #1e1e1e;
+  border-top: 2px solid #5f5f5f;
+
+  position: relative;
+}
+
+.line {
+  width: 100%;
+  border: 2px solid #5f5f5f;
+  position: absolute;
+
+  bottom: 270px;
+}
+
+.footer__contents {
+  width: 100%;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.footer__top {
+  padding: 87px 0 170px 0;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.footer__top > h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: white;
+}
+
+.footer__top > .sns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer__top > .sns > a {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #5f5f5f;
+  border: none;
+  border-radius: 20px;
+}
+
+.footer__top > .company__info {
+  color: #909090;
+  font-size: 25px;
+  font-weight: bold;
+
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.info-contact {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.contact-number > span::before {
+  content: "";
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background-color: #909090;
+  margin: 2px 16px 0 8px;
+  vertical-align: top;
+}
+
+.contact-number > span:first-child::before {
+  content: none;
+}
+
+.footer__bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.compliance-info {
+  color: #909090;
+  font-size: 20px;
+  font-weight: bold;
+
+  display: flex;
+  gap: 50px;
+}
+
+.compliance-info > a::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin: 4px 0 0 7px;
+  background: url("img/ico_arr_upward_16.png") no-repeat top left/auto 100%;
+}
