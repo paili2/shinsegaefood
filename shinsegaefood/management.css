@@ -48,3 +48,9 @@
 .button__box > .hover-black:hover {
   background-color: black;
 }
+
+@media screen and (max-width: 768px) {
+  .management__contents {
+    max-width: 720px;
+  }
+}

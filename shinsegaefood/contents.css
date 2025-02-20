@@ -74,3 +74,30 @@
   font-size: 21px;
   font-weight: bold;
 }
+
+@media screen and (max-width: 768px) {
+  .contents__contents {
+    max-width: 720px;
+  }
+
+  .contents__contents > .cardlist > a > article {
+    width: 347px;
+    height: 286px;
+
+    border-radius: 20px;
+  }
+
+  .contents__contents > .cardlist > a > article > .cell {
+    border-radius: 0 0 20px 20px;
+    padding: 20px 20px 10px 20px;
+  }
+  .contents__contents > .cardlist > a > article > .cell > div {
+    font-size: 18px;
+    line-height: 1.5;
+
+    margin-bottom: 5px;
+  }
+  .contents__contents > .cardlist > a > article > .cell > time {
+    font-size: 15px;
+  }
+}

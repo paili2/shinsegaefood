@@ -61,3 +61,31 @@ header {
 .search > img {
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .header__contents {
+    max-width: 720px;
+  }
+
+  .sitemap__bar > i {
+    font-size: 18px;
+  }
+
+  .logo__album {
+    width: 120px;
+  }
+
+  .main-navigation {
+    gap: 15px;
+    font-size: 13px;
+    font-weight: bold;
+  }
+
+  .search {
+    padding: 10px;
+  }
+
+  .search > input {
+    width: 100px;
+  }
+}

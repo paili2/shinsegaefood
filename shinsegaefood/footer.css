@@ -108,3 +108,54 @@ footer {
   margin: 4px 0 0 7px;
   background: url("img/ico_arr_upward_16.png") no-repeat top left/auto 100%;
 }
+
+@media screen and (max-width: 768px) {
+  .line {
+    bottom: 230px;
+    border: 1px solid #5f5f5f;
+  }
+
+  .footer__contents {
+    max-width: 720px;
+  }
+
+  .footer__top > h2 {
+    font-size: 25px;
+
+    line-height: 1.5;
+  }
+
+  .footer__top {
+    padding: 30px 0 40px 0;
+    gap: 40px;
+  }
+
+  .footer__top > .sns > a {
+    width: 60px;
+    height: 60px;
+
+    border-radius: 20px;
+  }
+
+  .footer__top > .sns > a > img {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+  }
+
+  .footer__top > .company__info {
+    font-size: 15px;
+
+    gap: 20px;
+  }
+
+  .contact-number > span::before {
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 15px;
+    background-color: #909090;
+    margin: 2px 16px 0 8px;
+    vertical-align: top;
+  }
+}

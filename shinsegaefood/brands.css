@@ -71,3 +71,15 @@
 .four {
   background-image: url("img/main_brands_bg_nbb.png");
 }
+
+@media screen and (max-width: 768px) {
+  .brands__contents {
+    max-width: 720px;
+  }
+  .brands__contents > .cardlist > a > article {
+    width: 170px;
+    height: 230px;
+
+    border-radius: 20px;
+  }
+}
