@@ -64,7 +64,7 @@ header {
 
 @media screen and (max-width: 768px) {
   .header__contents {
-    max-width: 720px;
+    max-width: 680px;
   }
 
   .sitemap__bar > i {
@@ -82,10 +82,15 @@ header {
   }
 
   .search {
-    padding: 10px;
+    padding: 3px 7px;
+    border: 1.5px solid black;
   }
 
   .search > input {
-    width: 100px;
+    width: 80px;
+  }
+
+  .search > img {
+    width: 18px;
   }
 }

@@ -74,7 +74,7 @@
 
 @media screen and (max-width: 768px) {
   .brands__contents {
-    max-width: 720px;
+    max-width: 680px;
   }
   .brands__contents > .cardlist > a > article {
     width: 170px;

@@ -76,7 +76,7 @@
 
 @media screen and (max-width: 768px) {
   .foodon__contents {
-    max-width: 720px;
+    max-width: 680px;
   }
 
   .foodon__contents > .cardlist > a > article {

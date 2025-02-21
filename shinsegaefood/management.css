@@ -51,6 +51,17 @@
 
 @media screen and (max-width: 768px) {
   .management__contents {
-    max-width: 720px;
+    max-width: 680px;
+  }
+
+  .button__box {
+    padding: 10px 50px;
+    gap: 30px;
+  }
+
+  .button__box > a {
+    font-size: 12px;
+
+    padding: 15px;
   }
 }

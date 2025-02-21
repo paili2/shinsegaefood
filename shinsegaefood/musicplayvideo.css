@@ -14,21 +14,17 @@
 }
 
 .video__contents > iframe {
-  width: 1120px;
-  height: 630px;
-
   border-radius: 30px;
 }
 
 @media screen and (max-width: 768px) {
   .video__contents {
-    max-width: 720px;
+    max-width: 680px;
   }
 
   .video__contents > iframe {
-    width: 560px;
-    height: 315px;
-
+    /* width: 560;
+    height: 315; */
     border-radius: 10px;
   }
 }
