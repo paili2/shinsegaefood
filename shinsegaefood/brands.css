@@ -77,8 +77,11 @@
     max-width: 680px;
   }
   .brands__contents > .cardlist > a > article {
-    width: 170px;
-    height: 230px;
+    /* width: 170px;
+    height: 230px; */
+
+    width: 150px;
+    height: 210px;
 
     border-radius: 20px;
   }

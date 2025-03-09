@@ -55,6 +55,11 @@
 
   border-radius: 0 0 50px 50px;
   padding: 30px 30px 20px 30px;
+
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  gap: 10px;
 }
 
 .contents__contents > .cardlist > a > article > .cell > div {
@@ -63,8 +68,6 @@
   font-size: 23px;
   font-weight: bold;
   line-height: 1.5;
-
-  margin-bottom: 20px;
 }
 
 .contents__contents > .cardlist > a > article > .cell > time {
@@ -80,21 +83,19 @@
   }
 
   .contents__contents > .cardlist > a > article {
-    width: 347px;
-    height: 286px;
+    width: 327px;
+    height: 266px;
 
     border-radius: 20px;
   }
 
   .contents__contents > .cardlist > a > article > .cell {
     border-radius: 0 0 20px 20px;
-    padding: 20px 20px 10px 20px;
+    padding: 12px 20px;
   }
   .contents__contents > .cardlist > a > article > .cell > div {
-    font-size: 18px;
-    line-height: 1.5;
-
-    margin-bottom: 5px;
+    font-size: 17px;
+    line-height: 1.3;
   }
   .contents__contents > .cardlist > a > article > .cell > time {
     font-size: 15px;

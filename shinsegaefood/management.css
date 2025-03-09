@@ -55,13 +55,13 @@
   }
 
   .button__box {
-    padding: 10px 50px;
-    gap: 30px;
+    padding: 5px 50px;
+    gap: 39px;
   }
 
   .button__box > a {
     font-size: 12px;
 
-    padding: 15px;
+    padding: 10px 50px;
   }
 }
